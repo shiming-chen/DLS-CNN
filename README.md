@@ -1,6 +1,6 @@
 # A-Robust-Off-line-Writer-Identification-Method(DLS-CNN)
 A method about writer identification with robust local features
-![](https://github.com/KiM55/A-Robust-Off-line-Writer-Identification-Method/blob/master/Images/model.png)
+![](https://github.com/KiM55/A-Robust-Off-line-Writer-Identification-Method/blob/master/Images/model1.png)
 
 ###  Main Contributions:
 We proposed a robust off-line writer identification (DLS-CNN),which can extract the robust local features effectively, so it achieves higher identification rate with few written contents, as well as achieves better retrieval result without depending on data augmentation and global encoding. It achieve exciting performance on ICDAR2013 and CVL benchmark datasets.
