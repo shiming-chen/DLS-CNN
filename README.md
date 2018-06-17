@@ -7,7 +7,7 @@ We proposed a robust off-line writer identification (DLS-CNN),which can extract 
 
 
 # 1.Line Segmentation
-This process will segment the image to line.
+This process will accurately segment the image to line.
 ## Usage
 ```Console
 mkdir build
@@ -16,3 +16,9 @@ cmake ..
 make
 ./Image2Lines the_path_to_the_img
 ```
+
+
+# 2.The improved ResNet
+In order to make ResNet-50 model adapt to writer identification,we take some improvements for ResNet:
+1. The global pool take place of average pool.
+2. Add a relu layer and dropout layer.
