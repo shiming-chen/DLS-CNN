@@ -253,7 +253,7 @@ private:
     ///< The predicted height of lines in the image.
     int chunk_width;
     ///< width of the chunk.
-    // ToDo @Samir55 add CHUNKS_TO_BE_PROCESSED when needed.
+   
 
     /// Read the image file into CV matrix
     void
@@ -279,7 +279,7 @@ private:
     void
     generate_regions();
 
-    /// ToDo @Samir55.
+    
     vector<cv::Mat>
     get_regions();
 
