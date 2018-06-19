@@ -23,9 +23,13 @@ In order to make ResNet-50 model adapt to writer identification,we take some imp
 1. The global pool take place of average pool.
 2. Add a relu layer and dropout layer.
 ### Usage
+#### Train
 1. Make a dir called `data` by typing `mkdir ./data`.
 
 2. Download [ResNet-50 model](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) pretrained on Imagenet. Put it in the `data` dir. 
 
 3. Add your dataset path into `prepare_data.m` and run it. Make sure the code outputs the right image path.
 4. Run `train_id_net_res_market_new.m`. 
+#### Feature extraction
+ Run `test_gallery_query_crazy.m` in  the `test` dir.
+ 
