@@ -31,5 +31,5 @@ In order to make ResNet-50 model adapt to writer identification,we take some imp
 3. Add your dataset path into `prepare_data.m` and run it. Make sure the code outputs the right image path.
 4. Run `train_id_net_res_market_new.m`. 
 #### Feature extraction
- Run `test_gallery_query_crazy.m` in  the `test` dir.
+ Run `test.m` in  the `test` dir.
  
