@@ -42,5 +42,5 @@ end
 save('../test/icdar2013_all_pool5_patches256.mat','ff','-v7.3');
 %}
 
-%---------query
+
 
