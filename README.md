@@ -37,7 +37,7 @@ In order to make ResNet-50 model adapt to writer identification,we take some imp
 2. Download [ResNet-50 model](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) pretrained on Imagenet. Put it in the `data` dir. 
 
 3. Add your dataset path into `prepare_data.m` and run it. Make sure the code outputs the right image path.
-4. Run `train_id_net_res_market_new.m`. 
+4. Run `train_id_net_res_market_new.m` for train. 
 #### Feature extraction
- Run `test.m` in  the `test` dir.
+ Run `test.m` in  the `test` dir for feature extraction.
  
