@@ -1,5 +1,5 @@
 # A-Robust-Off-line-Writer-Identification-Method(DLS-CNN)
-A method about writer identification with robust local features
+
 ![](https://github.com/KiM55/A-Robust-Off-line-Writer-Identification-Method/blob/master/Images/model1.png)
 
 ###  Main Contributions:
