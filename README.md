@@ -7,7 +7,7 @@ We propose a robust off-line writer identification (DLS-CNN),which can extract t
 
 ## 1.Dependences 
 - Matlab, Matconvnet, Opencv, NVIDIA GPU
-- **(Note that I have included my Matconvnet in https://github.com/KiM55/Writer-Identification-WLSR, you should download and compile it. I has changed some codes comparing with the original version. For example, one of the difference is in `/matlab/+dagnn/@DagNN/initParams.m`. If one layer has params, I will not initialize it again, especially for pretrained model.)**
+- **(Note that I have included my Matconvnet in https://github.com/shiming-chen/Writer-Identification-WLSR, you should download and compile it. I has changed some codes comparing with the original version. For example, one of the difference is in `/matlab/+dagnn/@DagNN/initParams.m`. If one layer has params, I will not initialize it again, especially for pretrained model.)**
 
 	You just need to uncomment and modify some lines in `compile.m` and run it in Matlab. Try it~
 	(The code does not support cudnn 6.0. You may just turn off the Enablecudnn or try cudnn5.1)
